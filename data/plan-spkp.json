@@ -1,0 +1,6125 @@
+{
+ "startDate": "2026-10-19",
+ "weeks": [
+  {
+   "week": 1,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3+2",
+        "14+2",
+        "9+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "52 w 2 min (minutnik)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s",
+        "30 s",
+        "30 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "25 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "8x+3x",
+        "4x+3x"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 1",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "8 x 50 m – spokojnie, koncentracja na technice"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "52 w 2 min (minutnik)"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5 × 47,5 kg",
+        "5 × 47,5 kg",
+        "5 × 47,5 kg",
+        "5 × 47,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "8x+3x",
+        "4x+3x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 1",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "8 x 50 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "52 w 2 min (minutnik)"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "8x+3x",
+        "4x+3x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "8 × 42,5 kg",
+        "8 × 42,5 kg",
+        "8 × 42,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "52 w 2 min (minutnik)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3+2",
+        "14+2",
+        "9+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "8 x 1 min szybko / 90 s truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "17 powt.",
+        "17 powt.",
+        "17 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "15+2",
+        "9+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "54 w 2 min (minutnik)",
+        "60"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "35 s",
+        "35 s",
+        "35 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "30 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "9x",
+        "5x"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 2",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "10 x 50 m – technika kraula"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "54 w 2 min (minutnik)",
+        "60"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5 × 50 kg",
+        "5 × 50 kg",
+        "5 × 50 kg",
+        "5 × 50 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt.",
+        "12 powt.",
+        "12 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "9x",
+        "5x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 2",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "8 x 50 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "54 w 2 min (minutnik)",
+        "60"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "9x+3x",
+        "5x+3x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "9 × 42,5 kg",
+        "9 × 42,5 kg",
+        "9 × 42,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "56 w 2 min (minutnik)",
+        "63"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "15+2",
+        "9+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "10 x 1 min szybko / 90 s truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "19 powt.",
+        "19 powt.",
+        "19 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "16+2",
+        "10+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 40 s na nogę · 3b 30 s",
+        "3a 40 s na nogę · 3b 30 s",
+        "3a 40 s na nogę · 3b 30 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "56 w 2 min (minutnik)",
+        "63"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "40 s",
+        "40 s",
+        "40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "30–35 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "9x+3x",
+        "5x+3x"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 3",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "12 x 50 m – naprzemiennie technika i pływanie"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "56 w 2 min (minutnik)",
+        "63"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "16 powt. na nogę",
+        "16 powt. na nogę",
+        "16 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "4 × 52,5 kg",
+        "4 × 52,5 kg",
+        "4 × 52,5 kg",
+        "4 × 52,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt.",
+        "14 powt.",
+        "14 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "9x+3x",
+        "5x+3x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 55 s · 5b 50 s",
+        "5a 55 s · 5b 50 s",
+        "5a 55 s · 5b 50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 3",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "10 x 50 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "58 w 2 min (minutnik)",
+        "66"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "9x+5x",
+        "5x+5x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 × 42,5 kg",
+        "10 × 42,5 kg",
+        "10 × 42,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "58 w 2 min (minutnik)",
+        "66"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "16+2",
+        "10+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "6 x 2 min szybko / 2 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "flags": [
+    "piątek: test 12 min na początku treningu",
+    "czwartek: sprawdzenie maksymalnego dystansu ciągłego"
+   ],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "21 powt.",
+        "21 powt.",
+        "21 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "17",
+        "11+2"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 45 s na nogę · 3b 35 s",
+        "3a 45 s na nogę · 3b 35 s",
+        "3a 45 s na nogę · 3b 35 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "58 w 2 min (minutnik)",
+        "66"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s",
+        "45 s",
+        "45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "25 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "9x+5x",
+        "5x+5x"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 4",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "8 x 50 m – spokojna praca techniczna"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5",
+        "MAX w 2 min (minutnik)"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "18 powt. na nogę",
+        "18 powt. na nogę",
+        "18 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5 × 52,5 kg",
+        "5 × 52,5 kg",
+        "5 × 52,5 kg",
+        "5 × 52,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "16 powt.",
+        "16 powt.",
+        "16 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "10x",
+        "6x+3x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 60 s · 5b 55 s",
+        "5a 60 s · 5b 55 s",
+        "5a 60 s · 5b 55 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 4",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "sprawdzenie maksymalnego dystansu ciągłego"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "58 w 2 min (minutnik)",
+        "63"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TEST 12 MIN + TRENING III",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Test robisz na świeżo, zaraz po rozgrzewce — dopiero potem trening siłowy.",
+      "Przed testem: nie zmieniasz diety. Na kolację dzień wcześniej i w dniu testu mniej białka i tłuszczu, więcej węglowodanów prostych i złożonych (tosty z dżemem, ryż z owocami, makaron z owocami). Bez jajecznicy, tłustych mięs i fast foodów."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "NAJPIERW (po rozgrzewce): Bieg II — test 12 min",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "Test 12-minutowy"
+       ],
+       "hints": [
+        "Zapisz dystans w metrach:"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "10x",
+        "6x+3x"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "8 × 45 kg",
+        "8 × 45 kg",
+        "8 × 45 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 4,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "58 w 2 min (minutnik)",
+        "63"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "17",
+        "11+2"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "23 powt.",
+        "23 powt.",
+        "23 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3+2",
+        "MAX (M)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 50 s na nogę · 3b 40 s",
+        "3a 50 s na nogę · 3b 40 s",
+        "3a 50 s na nogę · 3b 40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "58 w 2 min (minutnik)",
+        "63"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s",
+        "50 s",
+        "50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "35 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "10x",
+        "6x+3x"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 5",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 4 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "60 w 2 min (minutnik)",
+        "66"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt. na nogę",
+        "20 powt. na nogę",
+        "20 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "4 × 55 kg",
+        "4 × 55 kg",
+        "4 × 55 kg",
+        "4 × 55 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "18 powt.",
+        "18 powt.",
+        "18 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "MAX"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 65 s · 5b 60 s",
+        "5a 65 s · 5b 60 s",
+        "5a 65 s · 5b 60 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 5",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "6 x 50 m + 2 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "60 w 2 min (minutnik)",
+        "66"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M-1 +5x",
+        "M-2"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "9 × 45 kg",
+        "9 × 45 kg",
+        "9 × 45 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "60 w 2 min (minutnik)",
+        "66"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "M−4",
+        "M−7+2"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "5 x 3 min szybko / 2 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "4+2",
+        "M−4",
+        "M−7+2"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "62 w 2 min (minutnik)",
+        "68"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s",
+        "30 s",
+        "30 s",
+        "30 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "35–40 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M-1 +5x",
+        "M-2"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 6",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "6 x 50 m + 4 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "62 w 2 min (minutnik)",
+        "68"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5 × 55 kg",
+        "5 × 55 kg",
+        "5 × 55 kg",
+        "5 × 55 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M +5x",
+        "M-1"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 6",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 4 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "62 w 2 min (minutnik)",
+        "68"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M +5x",
+        "M-1"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 × 45 kg",
+        "10 × 45 kg",
+        "10 × 45 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "64 w 2 min (minutnik)",
+        "70"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5+2",
+        "M−3+3",
+        "M−9+3"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "6 x 3 min szybko / 2 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "17 powt.",
+        "17 powt.",
+        "17 powt.",
+        "17 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5+2",
+        "M−3+3",
+        "M−9+3"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "64 w 2 min (minutnik)",
+        "70"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "35 s",
+        "35 s",
+        "35 s",
+        "35 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "40 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+1+5x",
+        "M"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 7",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 5 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "64 w 2 min (minutnik)",
+        "70"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "4 × 57,5 kg",
+        "4 × 57,5 kg",
+        "4 × 57,5 kg",
+        "4 × 57,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt.",
+        "12 powt.",
+        "12 powt.",
+        "12 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+1+5x",
+        "M"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 7",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 5 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5",
+        "MAX w 2 min (minutnik)"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+2",
+        "M +5x"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "8 × 47,5 kg",
+        "8 × 47,5 kg",
+        "8 × 47,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "62 w 2 min (minutnik)",
+        "65"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "6+2",
+        "M−2+3",
+        "M−8+3"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 4 min szybko / 2 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "flags": [
+    "piątek: test 12 min na początku treningu",
+    "czwartek: próba 200 m z zapisem czasu i przerw"
+   ],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "19 powt.",
+        "19 powt.",
+        "19 powt.",
+        "19 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "6+2",
+        "M−2+3",
+        "M−8+3"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 40 s na nogę · 3b 30 s",
+        "3a 40 s na nogę · 3b 30 s",
+        "3a 40 s na nogę · 3b 30 s",
+        "3a 40 s na nogę · 3b 30 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "62 w 2 min (minutnik)",
+        "65"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "40 s",
+        "40 s",
+        "40 s",
+        "40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "30 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+2",
+        "M +5x"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 8",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "8 x 50 m + 3 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "62 w 2 min (minutnik)",
+        "65"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "16 powt. na nogę",
+        "16 powt. na nogę",
+        "16 powt. na nogę",
+        "16 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "3 × 60 kg",
+        "3 × 60 kg",
+        "3 × 60 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt.",
+        "14 powt.",
+        "14 powt.",
+        "14 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+2",
+        "M +5x"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 55 s · 5b 50 s",
+        "5a 55 s · 5b 50 s",
+        "5a 55 s · 5b 50 s",
+        "5a 55 s · 5b 50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
+        "7a 16 powt. na nogę · 7b 14 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami).",
+      "Przed testem: nie zmieniasz diety. Na kolację dzień wcześniej i w dniu testu mniej białka i tłuszczu, więcej węglowodanów prostych i złożonych (tosty z dżemem, ryż z owocami, makaron z owocami). Bez jajecznicy, tłustych mięs i fast foodów."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 8",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "próba 200 m, z zapisem czasu i przerw"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "64 w 2 min (minutnik)",
+        "67"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TEST 12 MIN + TRENING III",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Test robisz na świeżo, zaraz po rozgrzewce — dopiero potem trening siłowy.",
+      "Przed testem: nie zmieniasz diety. Na kolację dzień wcześniej i w dniu testu mniej białka i tłuszczu, więcej węglowodanów prostych i złożonych (tosty z dżemem, ryż z owocami, makaron z owocami). Bez jajecznicy, tłustych mięs i fast foodów."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "NAJPIERW (po rozgrzewce): Bieg II — test 12 min",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "Test 12-minutowy"
+       ],
+       "hints": [
+        "Zapisz dystans w metrach:"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+3",
+        "M +5x"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "8 × 47,5 kg",
+        "8 × 47,5 kg",
+        "8 × 47,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 4,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "64 w 2 min (minutnik)",
+        "67"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5+2",
+        "M−1",
+        "M−7+3"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 9,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "21 powt.",
+        "21 powt.",
+        "21 powt.",
+        "21 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5+2",
+        "M−1",
+        "M−7+3"
+       ],
+       "hints": [
+        "M = Twój max z dnia 9"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 45 s na nogę · 3b 35 s",
+        "3a 45 s na nogę · 3b 35 s",
+        "3a 45 s na nogę · 3b 35 s",
+        "3a 45 s na nogę · 3b 35 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "64 w 2 min (minutnik)",
+        "67"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "40 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "M+3",
+        "M +5x"
+       ],
+       "hints": [
+        "M = Twój max z sesji 14"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 9",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 5 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "67 w 2 min (minutnik)",
+        "70"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "18 powt. na nogę",
+        "18 powt. na nogę",
+        "18 powt. na nogę",
+        "18 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "4 × 57,5 kg",
+        "4 × 57,5 kg",
+        "4 × 57,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "16 powt.",
+        "16 powt.",
+        "16 powt.",
+        "16 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "MAX (N)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 60 s · 5b 55 s",
+        "5a 60 s · 5b 55 s",
+        "5a 60 s · 5b 55 s",
+        "5a 60 s · 5b 55 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
+        "7a 18 powt. na nogę · 7b 16 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 9",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "3 x 50 m + 4 x 100 m + 1 x 200 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "67 w 2 min (minutnik)",
+        "70"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "N +5x",
+        "N-1"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "9 × 47,5 kg",
+        "9 × 47,5 kg",
+        "9 × 47,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "67 w 2 min (minutnik)",
+        "70"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3+2",
+        "MAX (N)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "5 x 4 min szybko / 2 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 10,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "23 powt.",
+        "23 powt.",
+        "23 powt.",
+        "23 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "6+2",
+        "N−5",
+        "N−8"
+       ],
+       "hints": [
+        "N = Twój max z dnia 18"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 50 s na nogę · 3b 40 s",
+        "3a 50 s na nogę · 3b 40 s",
+        "3a 50 s na nogę · 3b 40 s",
+        "3a 50 s na nogę · 3b 40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "69 w 2 min (minutnik)",
+        "72"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s",
+        "50 s",
+        "50 s",
+        "50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "40–45 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "2x+2x",
+        "N +5x",
+        "N-1"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 10",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 6 x 100 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "69 w 2 min (minutnik)",
+        "72"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt. na nogę",
+        "20 powt. na nogę",
+        "20 powt. na nogę",
+        "20 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "3 × 60 kg",
+        "3 × 60 kg",
+        "3 × 60 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "18 powt.",
+        "18 powt.",
+        "18 powt.",
+        "18 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+1+5x",
+        "N"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 65 s · 5b 60 s",
+        "5a 65 s · 5b 60 s",
+        "5a 65 s · 5b 60 s",
+        "5a 65 s · 5b 60 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
+        "7a 20 powt. na nogę · 7b 18 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 10",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "2 x 50 m + 4 x 100 m + 2 x 200 m"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "Po basenie, w domu: brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "10",
+        "69 w 2 min (minutnik)",
+        "72"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+1+5x",
+        "N"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 × 47,5 kg",
+        "10 × 47,5 kg",
+        "10 × 47,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5",
+        "MAX w 2 min (minutnik)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "6+2",
+        "N−5",
+        "N−8"
+       ],
+       "hints": [
+        "N = Twój max z dnia 18"
+       ]
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "6 x 4 min szybko / 2 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 11,
+   "flags": [],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "7+2",
+        "N−4+4",
+        "N−8+4"
+       ],
+       "hints": [
+        "N = Twój max z dnia 18"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s",
+        "3a 30 s na nogę · 3b 20 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "5",
+        "MAX w 2 min (minutnik)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s",
+        "30 s",
+        "30 s",
+        "30 s",
+        "30 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "40 min spokojnego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+2",
+        "N +5x"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 11",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "4 x 50 m + 6 x 100 m"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "4 × 60 kg",
+        "4 × 60 kg",
+        "4 × 60 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+2",
+        "N +5x"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s",
+        "5a 45 s · 5b 40 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
+        "7a 12 powt. na nogę · 7b 10 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 11",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "2 x 50 m + 3 x 100 m + 2 x 200 m"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TRENING III + BIEG II NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu.",
+      "Interwały: tętno ok. 90% HRmax, mocna praca bez sprintu. Pierwsze powtórzenia nie mogą być najszybsze, tempo zbliżone na wszystkich odcinkach. Jeśli tempo wyraźnie spada, zakończ serię wcześniej. Przerwy: marsz lub bardzo lekki trucht. Zapisz tempo, dystans, tętno i samopoczucie."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+2",
+        "N +5x"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "8 × 50 kg",
+        "8 × 50 kg",
+        "8 × 50 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "Tabela brzuszków trenera skończyła się na sesji #41."
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "7+2",
+        "N−4+4",
+        "N−8+4"
+       ],
+       "hints": [
+        "N = Twój max z dnia 18"
+       ]
+      },
+      {
+       "order": 7,
+       "name": "NA KOŃCU: Bieg II (interwały)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "3 x 6 min szybko / 3 min truchtu"
+       ],
+       "hints": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 12,
+   "flags": [
+    "piątek: test 12 min na początku treningu",
+    "czwartek: próba 200 m na czas"
+   ],
+   "days": [
+    {
+     "dayIndex": 0,
+     "dayName": "Poniedziałek",
+     "title": "TRENING I + BIEG I NA KOŃCU",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Bieg po treningu siłowym: rozgrzewkę masz już za sobą — zacznij od 3–5 min marszu i lekkiego truchtu, mobilizacja bioder i stawów skokowych. Po biegu 2–3 min spokojnego marszu."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Dynamiczne podrzuty sztangi z ziemi",
+       "videos": [
+        {
+         "label": "podrzuty sztangi",
+         "url": "https://www.youtube.com/watch?v=LtoksZKesMA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "17 powt.",
+        "17 powt.",
+        "17 powt.",
+        "17 powt.",
+        "17 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "7+2",
+        "N−3+3",
+        "N−7+5"
+       ],
+       "hints": [
+        "N = Twój max z dnia 18"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "videos": [
+        {
+         "label": "wbiegi na step",
+         "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
+        },
+        {
+         "label": "skip A",
+         "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s",
+        "3a 35 s na nogę · 3b 25 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Przysiad ze sztangą w tempie 3201*",
+       "videos": [
+        {
+         "label": "przysiad w tempie 3201",
+         "url": "https://www.youtube.com/watch?v=sS57fFc58F0&list=PLfOrXacPgBr8&index=6"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "10 powt.",
+        "10 powt.",
+        "10 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 10x w każdej serii — dołóż ciężar."
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5. Ściąganie drążka wyciągu górnego nachwytem DO BRODY",
+       "videos": [
+        {
+         "label": "ściąganie drążka",
+         "url": "https://www.youtube.com/watch?v=goC4lOiyEPM&list=PLfOrXacPgBr8&index=14"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x — dołóż obciążenie na następnym treningu."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "6. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "Tabela brzuszków trenera skończyła się na sesji #41."
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "7. Pchanie sanek + ciągnięcie sanek",
+       "videos": [
+        {
+         "label": "sanki",
+         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "35 s",
+        "35 s",
+        "35 s",
+        "35 s",
+        "35 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 8,
+       "name": "NA KOŃCU: Bieg I (spokojny)",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "25 min bardzo lekkiego biegu"
+       ],
+       "hints": [
+        "Tętno ok. 60–70% HRmax, możesz swobodnie rozmawiać."
+       ]
+      },
+      {
+       "order": 9,
+       "name": "Po biegu: podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+3",
+        "N+1"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      }
+     ]
+    },
+    {
+     "dayIndex": 1,
+     "dayName": "Wtorek",
+     "title": "BASEN I (technika)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami)."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen I — tydzień 12",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "6 x 50 m – lekka praca techniczna"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 2,
+     "dayName": "Środa",
+     "title": "TRENING II",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "1. Wykroki dynamiczne",
+       "videos": [
+        {
+         "label": "wykroki dynamiczne",
+         "url": "https://www.youtube.com/watch?v=3Wq20JQA2Cw&list=PLfOrXacPgBr8&index=13"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 2,
+       "name": "2. Wyciskanie sztangi na ławce",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "3 × 62,5 kg",
+        "3 × 62,5 kg",
+        "3 × 62,5 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 3,
+       "name": "3. Rzut wall ball o ścianę z przysiadem",
+       "videos": [
+        {
+         "label": "wall ball",
+         "url": "https://www.youtube.com/shorts/WGM7FjbDJUA"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt.",
+        "12 powt.",
+        "12 powt.",
+        "12 powt.",
+        "12 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 4,
+       "name": "4. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "3x+2x",
+        "N+3",
+        "N+1"
+       ],
+       "hints": [
+        "N = Twój max z sesji 26"
+       ]
+      },
+      {
+       "order": 5,
+       "name": "5a. Deska + 5b. Swing z kettlem",
+       "videos": [
+        {
+         "label": "deska",
+         "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
+        },
+        {
+         "label": "swing z kettlem",
+         "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s",
+        "5a 50 s · 5b 45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 6,
+       "name": "6. Uginanie ramion z drążkiem wyciągu dolnego",
+       "videos": [
+        {
+         "label": "uginanie ramion",
+         "url": "https://www.youtube.com/watch?v=Vm-FATb2EMQ&list=PLfOrXacPgBr8&index=11"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": [
+        "Jeśli uda się 20x danym ciężarem — dołóż ciężar na następnym treningu."
+       ]
+      },
+      {
+       "order": 7,
+       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "videos": [
+        {
+         "label": "uginanie nogi leżąc",
+         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
+        },
+        {
+         "label": "wyskok jednonóż",
+         "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
+        "7a 14 powt. na nogę · 7b 12 powt. na nogę"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 3,
+     "dayName": "Czwartek",
+     "title": "BASEN II (wytrzymałość)",
+     "notes": [
+      "Odpoczynek: po 50 m 30–45 s · po 100 m 45–60 s · po 200 m 60–90 s. Jeśli 100 m ciągiem jest za trudne — 2 × 50 m z przerwą 15–20 s (tak samo z dłuższymi odcinkami).",
+      "Przed testem: nie zmieniasz diety. Na kolację dzień wcześniej i w dniu testu mniej białka i tłuszczu, więcej węglowodanów prostych i złożonych (tosty z dżemem, ryż z owocami, makaron z owocami). Bez jajecznicy, tłustych mięs i fast foodów."
+     ],
+     "warmupVideo": null,
+     "exercises": [
+      {
+       "order": 1,
+       "name": "Basen II — tydzień 12",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "próba 200 m na czas"
+       ],
+       "hints": []
+      }
+     ]
+    },
+    {
+     "dayIndex": 4,
+     "dayName": "Piątek",
+     "title": "TEST 12 MIN + TRENING III",
+     "notes": [
+      "Rozgrzewka: bieżnia 6,0–6,5 km/h przez 4–6 min (tempo rozmowy) + rozgrzewka dynamiczna, każde ćwiczenie ok. 10x, kolana 20x.",
+      "Test robisz na świeżo, zaraz po rozgrzewce — dopiero potem trening siłowy.",
+      "Przed testem: nie zmieniasz diety. Na kolację dzień wcześniej i w dniu testu mniej białka i tłuszczu, więcej węglowodanów prostych i złożonych (tosty z dżemem, ryż z owocami, makaron z owocami). Bez jajecznicy, tłustych mięs i fast foodów."
+     ],
+     "warmupVideo": "https://www.youtube.com/watch?v=3UzLli-fUPE",
+     "exercises": [
+      {
+       "order": 1,
+       "name": "NAJPIERW (po rozgrzewce): Bieg II — test 12 min",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "Test 12-minutowy"
+       ],
+       "hints": [
+        "Zapisz dystans w metrach:"
+       ]
+      },
+      {
+       "order": 2,
+       "name": "1. Podciąganie",
+       "videos": [
+        {
+         "label": "podciąganie z negatywami",
+         "url": "https://www.youtube.com/watch?v=HocXNhi6IJY"
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "1x+2x",
+        "MAX (O)"
+       ],
+       "hints": []
+      },
+      {
+       "order": 3,
+       "name": "2. Wyciskanie sztangi",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "9 × 50 kg",
+        "9 × 50 kg",
+        "9 × 50 kg"
+       ],
+       "hints": [
+        "rozgrzewka: gryf, 30–40 kg, dalej po 2–3 powt. co 5–10 kg"
+       ]
+      },
+      {
+       "order": 4,
+       "name": "3. Wejścia na skrzynię z ciężarem (krążek 20g wg planu trenera)",
+       "videos": [],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s wejścia bez ciężaru",
+        "wejścia w 2 min z ciężarem",
+        "45 wejść z ciężarem, zapisz czas"
+       ],
+       "hints": []
+      },
+      {
+       "order": 5,
+       "name": "4. Podciąganie na maszynie z odciążeniem",
+       "videos": [
+        {
+         "label": "podciąganie na maszynie",
+         "url": "https://www.youtube.com/shorts/WLzut1ZxxTY"
+        }
+       ],
+       "hasWeight": true,
+       "singleResult": false,
+       "plannedSets": [
+        "15 powt.",
+        "15 powt.",
+        "15 powt."
+       ],
+       "hints": [
+        "Gdy zrobisz 15 powtórzeń — zmniejsz ciężar odciążenia."
+       ]
+      },
+      {
+       "order": 6,
+       "name": "5. Brzuszki",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": true,
+       "plannedSets": [
+        "Tabela brzuszków trenera skończyła się na sesji #41."
+       ],
+       "hints": []
+      },
+      {
+       "order": 7,
+       "name": "6. Pompki na poręczach",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "7+2",
+        "N−3+3",
+        "N−7+5"
+       ],
+       "hints": [
+        "N = Twój max z dnia 18"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

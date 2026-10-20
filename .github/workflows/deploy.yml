@@ -1,0 +1,69 @@
+name: Deploy to UX server (FTP)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-ftp-spkp-test
+  cancel-in-progress: true
+
+env:
+  DEPLOY_DIR: /spkp-test/
+  PUBLIC_URL: https://ux.dev-jaaqob.pl/spkp-test/
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+
+      - name: Upload frontend (dist)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: ./dist/
+          server-dir: ${{ env.DEPLOY_DIR }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/api/**
+            **/storage/**
+            **/*.sqlite
+            **/*.sqlite-*
+            **/config.php
+
+      - name: Upload API
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: ./api/
+          server-dir: ${{ env.DEPLOY_DIR }}api/
+          exclude: |
+            **/config.php
+            **/*.sqlite
+            **/*.sqlite-*
+
+      - name: Verify preview
+        run: |
+          echo "Public URL: ${{ env.PUBLIC_URL }}"
+          curl -sS -o /dev/null -w "%{http_code}\n" "${{ env.PUBLIC_URL }}" || true

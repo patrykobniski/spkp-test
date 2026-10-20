@@ -1,0 +1,11 @@
+node_modules/
+dist/
+server/data/
+storage/
+api/config.php
+*.sqlite
+*.sqlite-*
+.DS_Store
+.env
+.env.*
+!.env.example
