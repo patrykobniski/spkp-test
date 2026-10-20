@@ -122,14 +122,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "30 s",
@@ -328,12 +323,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -342,9 +333,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę"
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę"
        ],
        "hints": []
       }
@@ -623,14 +614,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "35 s",
@@ -830,12 +816,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -844,9 +826,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę"
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę"
        ],
        "hints": []
       }
@@ -1127,14 +1109,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "40 s",
@@ -1334,12 +1311,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -1348,9 +1321,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę"
+        "7a 16 powt. · 7b 14 powt. na nogę",
+        "7a 16 powt. · 7b 14 powt. na nogę",
+        "7a 16 powt. · 7b 14 powt. na nogę"
        ],
        "hints": []
       }
@@ -1634,14 +1607,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "45 s",
@@ -1840,12 +1808,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -1854,9 +1818,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę"
+        "7a 18 powt. · 7b 16 powt. na nogę",
+        "7a 18 powt. · 7b 16 powt. na nogę",
+        "7a 18 powt. · 7b 16 powt. na nogę"
        ],
        "hints": []
       }
@@ -2138,14 +2102,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "50 s",
@@ -2344,12 +2303,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -2358,9 +2313,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę"
+        "7a 20 powt. · 7b 18 powt. na nogę",
+        "7a 20 powt. · 7b 18 powt. na nogę",
+        "7a 20 powt. · 7b 18 powt. na nogę"
        ],
        "hints": []
       }
@@ -2649,14 +2604,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "30 s",
@@ -2864,12 +2814,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -2878,10 +2824,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę"
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę"
        ],
        "hints": []
       }
@@ -3170,14 +3116,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "35 s",
@@ -3385,12 +3326,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -3399,10 +3336,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę"
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę"
        ],
        "hints": []
       }
@@ -3693,14 +3630,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "40 s",
@@ -3907,12 +3839,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -3921,10 +3849,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę",
-        "7a 16 powt. na nogę · 7b 14 powt. na nogę"
+        "7a 16 powt. · 7b 14 powt. na nogę",
+        "7a 16 powt. · 7b 14 powt. na nogę",
+        "7a 16 powt. · 7b 14 powt. na nogę",
+        "7a 16 powt. · 7b 14 powt. na nogę"
        ],
        "hints": []
       }
@@ -4216,14 +4144,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "45 s",
@@ -4427,12 +4350,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -4441,10 +4360,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę",
-        "7a 18 powt. na nogę · 7b 16 powt. na nogę"
+        "7a 18 powt. · 7b 16 powt. na nogę",
+        "7a 18 powt. · 7b 16 powt. na nogę",
+        "7a 18 powt. · 7b 16 powt. na nogę",
+        "7a 18 powt. · 7b 16 powt. na nogę"
        ],
        "hints": []
       }
@@ -4730,14 +4649,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "50 s",
@@ -4944,12 +4858,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -4958,10 +4868,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę",
-        "7a 20 powt. na nogę · 7b 18 powt. na nogę"
+        "7a 20 powt. · 7b 18 powt. na nogę",
+        "7a 20 powt. · 7b 18 powt. na nogę",
+        "7a 20 powt. · 7b 18 powt. na nogę",
+        "7a 20 powt. · 7b 18 powt. na nogę"
        ],
        "hints": []
       }
@@ -5250,14 +5160,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "30 s",
@@ -5455,12 +5360,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -5469,11 +5370,11 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę",
-        "7a 12 powt. na nogę · 7b 10 powt. na nogę"
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę",
+        "7a 12 powt. · 7b 10 powt. na nogę"
        ],
        "hints": []
       }
@@ -5750,14 +5651,9 @@
       },
       {
        "order": 7,
-       "name": "7. Pchanie sanek + ciągnięcie sanek",
-       "videos": [
-        {
-         "label": "sanki",
-         "url": "https://www.youtube.com/watch?v=OaA1GaEC28U&list=PLfOrXacPgBr8&index=4"
-        }
-       ],
-       "hasWeight": false,
+       "name": "7. Farmer's walk",
+       "videos": [],
+       "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
         "35 s",
@@ -5955,12 +5851,8 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nogi leżąc jednonóż + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
-        {
-         "label": "uginanie nogi leżąc",
-         "url": "https://www.youtube.com/shorts/Qj4EV7vBAHw"
-        },
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
@@ -5969,11 +5861,11 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę",
-        "7a 14 powt. na nogę · 7b 12 powt. na nogę"
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę",
+        "7a 14 powt. · 7b 12 powt. na nogę"
        ],
        "hints": []
       }
