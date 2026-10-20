@@ -61,6 +61,27 @@ textarea {
   font: inherit;
 }
 
+/* Mobile: min 16px = brak auto-zoom iOS Safari przy focus */
+.mobile-input,
+input.mobile-input,
+textarea.mobile-input,
+.field input,
+.login-card input,
+.card textarea {
+  font-size: 16px !important;
+  line-height: 1.35;
+  width: 100%;
+  min-height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+  color: var(--text);
+  padding: 0.75rem 0.9rem;
+  -webkit-appearance: none;
+  appearance: none;
+  touch-action: manipulation;
+}
+
 button {
   min-height: var(--touch);
   min-width: var(--touch);
@@ -99,12 +120,15 @@ input[type="password"],
 input[type="number"],
 textarea {
   width: 100%;
-  min-height: var(--touch);
+  min-height: 48px;
   border-radius: 12px;
   border: 1px solid var(--line);
   background: var(--bg-elev);
   color: var(--text);
-  padding: 0.6rem 0.8rem;
+  padding: 0.75rem 0.9rem;
+  font-size: 16px;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .app-shell {

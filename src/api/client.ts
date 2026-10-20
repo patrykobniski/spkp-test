@@ -2,6 +2,25 @@ import type { ProgressPayload, SetLog, WeekNote } from "../types";
 
 export type SaveStatus = "idle" | "saving" | "saved" | "error";
 
+const TOKEN_KEY = "spkp_token";
+
+export function getStoredToken(): string | null {
+  try {
+    return localStorage.getItem(TOKEN_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function setStoredToken(token: string | null): void {
+  try {
+    if (token) localStorage.setItem(TOKEN_KEY, token);
+    else localStorage.removeItem(TOKEN_KEY);
+  } catch {
+    /* private mode */
+  }
+}
+
 /** `/api/...` lokalnie; `/spkp-test/api/...` na UX serverze. */
 function apiUrl(path: string): string {
   const base = import.meta.env.BASE_URL.endsWith("/")
@@ -20,6 +39,8 @@ async function request<T>(
     headers.set("Content-Type", "application/json");
   }
   headers.set("X-Requested-With", "dziennik-spkp");
+  const token = getStoredToken();
+  if (token) headers.set("Authorization", `Bearer ${token}`);
 
   const res = await fetch(apiUrl(path), {
     ...options,
@@ -46,14 +67,19 @@ export class AuthError extends Error {
 }
 
 export async function login(password: string): Promise<void> {
-  await request("/api/login", {
+  const data = await request<{ ok: boolean; token?: string }>("/api/login", {
     method: "POST",
-    body: JSON.stringify({ password }),
+    body: JSON.stringify({ password: password.trim() }),
   });
+  if (data.token) setStoredToken(data.token);
 }
 
 export async function logout(): Promise<void> {
-  await request("/api/logout", { method: "POST", body: "{}" });
+  try {
+    await request("/api/logout", { method: "POST", body: "{}" });
+  } finally {
+    setStoredToken(null);
+  }
 }
 
 export async function me(): Promise<{ ok: boolean }> {
@@ -82,9 +108,12 @@ export async function putNote(note: WeekNote): Promise<void> {
 }
 
 export async function exportData(format: "json" | "csv"): Promise<Blob> {
+  const headers = new Headers({ "X-Requested-With": "dziennik-spkp" });
+  const token = getStoredToken();
+  if (token) headers.set("Authorization", `Bearer ${token}`);
   const res = await fetch(apiUrl(`/api/export?format=${format}`), {
     credentials: "include",
-    headers: { "X-Requested-With": "dziennik-spkp" },
+    headers,
   });
   if (res.status === 401) throw new AuthError("unauthorized");
   if (!res.ok) throw new Error(`HTTP ${res.status}`);

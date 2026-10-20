@@ -30,11 +30,12 @@ try {
         $expires = time() + $days * 86400;
         db()->prepare('INSERT INTO sessions (token, expires_at) VALUES (?, ?)')->execute([$token, $expires]);
         set_session_cookie($token, $days, (bool)($cfg['secure_cookie'] ?? true));
-        json_out(200, ['ok' => true]);
+        // Token w JSON — Safari/mobile czasem nie trzyma cookie z fetch; front trzyma w localStorage.
+        json_out(200, ['ok' => true, 'token' => $token]);
     }
 
     if ($path === '/logout' && $method === 'POST') {
-        $token = $_COOKIE['spkp_session'] ?? '';
+        $token = request_token();
         if ($token !== '') {
             db()->prepare('DELETE FROM sessions WHERE token = ?')->execute([$token]);
         }

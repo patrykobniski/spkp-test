@@ -78,9 +78,16 @@ function clearSessionCookie(res) {
   );
 }
 
-function requireAuth(req, res) {
+function requestToken(req) {
   const cookies = getCookies(req);
-  const token = cookies.spkp_session;
+  if (cookies.spkp_session) return cookies.spkp_session;
+  const auth = req.headers.authorization || "";
+  const m = auth.match(/^Bearer\s+(\S+)/i);
+  return m ? m[1] : "";
+}
+
+function requireAuth(req, res) {
+  const token = requestToken(req);
   if (!token || !sessions.has(token)) {
     json(res, 401, { error: "unauthorized" });
     return false;
@@ -129,7 +136,7 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(204, {
         "Access-Control-Allow-Origin": "http://127.0.0.1:5173",
         "Access-Control-Allow-Credentials": "true",
-        "Access-Control-Allow-Headers": "Content-Type, X-Requested-With",
+        "Access-Control-Allow-Headers": "Content-Type, X-Requested-With, Authorization",
         "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
       });
       res.end();
@@ -143,20 +150,23 @@ const server = http.createServer(async (req, res) => {
         return;
       }
       const body = await readBody(req);
-      if (!body?.password || body.password !== PASSWORD) {
+      if (!body?.password || String(body.password).trim() !== PASSWORD) {
         json(res, 401, { error: "invalid_password" });
         return;
       }
       const token = crypto.randomBytes(32).toString("hex");
       sessions.set(token, Date.now() + SESSION_DAYS * 24 * 60 * 60 * 1000);
       setSessionCookie(res, token);
-      json(res, 200, { ok: true });
+      json(res, 200, { ok: true, token });
       return;
     }
 
     if (pathname === "/api/logout" && req.method === "POST") {
       const cookies = getCookies(req);
-      if (cookies.spkp_session) sessions.delete(cookies.spkp_session);
+      const auth = req.headers.authorization || "";
+      const bearer = auth.match(/^Bearer\s+(\S+)/i)?.[1];
+      const token = cookies.spkp_session || bearer;
+      if (token) sessions.delete(token);
       clearSessionCookie(res);
       json(res, 200, { ok: true });
       return;

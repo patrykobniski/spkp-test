@@ -17,8 +17,15 @@ export function Login({ onSuccess }: Props) {
     try {
       await login(password);
       onSuccess();
-    } catch {
-      setError("Nieprawidłowe hasło lub błąd serwera.");
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "";
+      if (msg.includes("invalid_password") || msg.includes("401")) {
+        setError("Nieprawidłowe hasło.");
+      } else if (msg.includes("too_many")) {
+        setError("Za dużo prób. Poczekaj chwilę.");
+      } else {
+        setError("Błąd sieci lub serwera. Spróbuj ponownie.");
+      }
     } finally {
       setBusy(false);
     }
@@ -33,8 +40,14 @@ export function Login({ onSuccess }: Props) {
           <label htmlFor="password">Hasło</label>
           <input
             id="password"
-            type="password"
+            className="mobile-input"
+            type="text"
+            inputMode="text"
+            enterKeyHint="go"
             autoComplete="current-password"
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required

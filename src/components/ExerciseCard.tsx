@@ -7,6 +7,7 @@ import {
   resolveGoal,
 } from "../lib/resolveGoal";
 import { setsForExercise } from "../lib/progress";
+import { MobileField } from "./MobileField";
 
 type Props = {
   week: number;
@@ -150,48 +151,49 @@ export function ExerciseCard({
               </div>
               {exercise.singleResult ? (
                 <div className="fields single">
-                  <div className="field">
-                    <label htmlFor={`res-${exercise.order}-${setIndex}`}>wynik</label>
-                    <input
-                      id={`res-${exercise.order}-${setIndex}`}
-                      inputMode="text"
-                      value={row.result_text ?? ""}
-                      onChange={(e) => patch(setIndex, { result_text: e.target.value })}
-                    />
-                  </div>
+                  <MobileField
+                    label="wynik"
+                    value={row.result_text ?? ""}
+                    inputMode="text"
+                    onCommit={(v) => patch(setIndex, { result_text: v })}
+                  />
                 </div>
               ) : (
                 <div className={`fields${exercise.hasWeight ? "" : " single"}`}>
-                  <div className="field">
-                    <label htmlFor={`reps-${exercise.order}-${setIndex}`}>powtórzenia</label>
-                    <input
-                      id={`reps-${exercise.order}-${setIndex}`}
-                      inputMode="numeric"
-                      value={row.reps ?? ""}
-                      placeholder={
-                        resolved.primaryNumber != null ? String(resolved.primaryNumber) : undefined
-                      }
-                      onChange={(e) => patch(setIndex, { reps: e.target.value })}
-                    />
-                  </div>
+                  <MobileField
+                    label="powtórzenia"
+                    value={row.reps ?? ""}
+                    inputMode="numeric"
+                    placeholder={
+                      resolved.primaryNumber != null
+                        ? String(resolved.primaryNumber)
+                        : undefined
+                    }
+                    enterKeyHint={exercise.hasWeight ? "next" : "done"}
+                    onCommit={(v) => patch(setIndex, { reps: v })}
+                  />
                   {exercise.hasWeight && (
-                    <div className="field">
-                      <label htmlFor={`kg-${exercise.order}-${setIndex}`}>kg</label>
-                      <input
-                        id={`kg-${exercise.order}-${setIndex}`}
-                        inputMode="decimal"
-                        value={row.weight_kg ?? ""}
-                        placeholder={
-                          weightPlaceholder != null ? String(weightPlaceholder) : undefined
+                    <MobileField
+                      label="kg"
+                      value={row.weight_kg == null ? "" : String(row.weight_kg)}
+                      inputMode="decimal"
+                      placeholder={
+                        weightPlaceholder != null
+                          ? String(weightPlaceholder)
+                          : undefined
+                      }
+                      onCommit={(raw) => {
+                        const v = raw.trim().replace(",", ".");
+                        if (v === "" || v === ".") {
+                          patch(setIndex, { weight_kg: null });
+                          return;
                         }
-                        onChange={(e) => {
-                          const v = e.target.value.replace(",", ".");
-                          patch(setIndex, {
-                            weight_kg: v === "" ? null : Number(v),
-                          });
-                        }}
-                      />
-                    </div>
+                        const n = Number(v);
+                        patch(setIndex, {
+                          weight_kg: Number.isFinite(n) ? n : null,
+                        });
+                      }}
+                    />
                   )}
                 </div>
               )}

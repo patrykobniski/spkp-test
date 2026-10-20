@@ -127,10 +127,22 @@ function clear_session_cookie(bool $secure): void
     ]);
 }
 
+function request_token(): string
+{
+    $cookie = $_COOKIE['spkp_session'] ?? '';
+    if (is_string($cookie) && $cookie !== '') {
+        return $cookie;
+    }
+    $auth = $_SERVER['HTTP_AUTHORIZATION'] ?? $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] ?? '';
+    if (is_string($auth) && preg_match('/^Bearer\s+(\S+)/i', $auth, $m)) {
+        return $m[1];
+    }
+    return '';
+}
+
 function require_auth(): void
 {
-    $cfg = app_config();
-    $token = $_COOKIE['spkp_session'] ?? '';
+    $token = request_token();
     if ($token === '') {
         json_out(401, ['error' => 'unauthorized']);
     }

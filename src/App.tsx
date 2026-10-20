@@ -381,10 +381,14 @@ export default function App() {
         <section className="card">
           <h2>Notatki · tydzień {week}</h2>
           <textarea
+            className="mobile-input"
             rows={8}
             aria-label="Notatki tygodnia"
             value={note}
-            onChange={(e) => onNoteChange(e.target.value)}
+            enterKeyHint="done"
+            autoCapitalize="sentences"
+            onChange={(e) => setNote(e.target.value)}
+            onBlur={(e) => onNoteChange(e.target.value)}
             placeholder="Jak poszło w tym tygodniu…"
           />
         </section>
