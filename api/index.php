@@ -75,9 +75,9 @@ try {
             $note['week'] = (int)$note['week'];
         }
         $maxRows = db()->query('SELECT key, value FROM max_values')->fetchAll();
-        $maxes = [];
+        $maxes = new stdClass();
         foreach ($maxRows as $r) {
-            $maxes[$r['key']] = (float)$r['value'];
+            $maxes->{$r['key']} = (float)$r['value'];
         }
         json_out(200, ['sets' => $sets, 'note' => $note, 'maxes' => $maxes]);
     }
