@@ -48,12 +48,26 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s na nogę",
+        "30 s na nogę",
+        "30 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -62,9 +76,9 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s"
+        "20 s",
+        "20 s",
+        "20 s"
        ],
        "hints": []
       },
@@ -281,12 +295,26 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s",
+        "45 s",
+        "45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -295,9 +323,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s"
+        "40 s",
+        "40 s",
+        "40 s"
        ],
        "hints": []
       },
@@ -323,19 +351,32 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt.",
+        "12 powt.",
+        "12 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę"
+        "10 powt. na nogę",
+        "10 powt. na nogę",
+        "10 powt. na nogę"
        ],
        "hints": []
       }
@@ -539,12 +580,26 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "35 s na nogę",
+        "35 s na nogę",
+        "35 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -553,9 +608,9 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s"
+        "25 s",
+        "25 s",
+        "25 s"
        ],
        "hints": []
       },
@@ -774,12 +829,26 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s",
+        "50 s",
+        "50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -788,9 +857,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s"
+        "45 s",
+        "45 s",
+        "45 s"
        ],
        "hints": []
       },
@@ -816,19 +885,32 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt.",
+        "14 powt.",
+        "14 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę"
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę"
        ],
        "hints": []
       }
@@ -1034,12 +1116,26 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "40 s na nogę",
+        "40 s na nogę",
+        "40 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -1048,9 +1144,9 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 40 s na nogę · 3b 30 s",
-        "3a 40 s na nogę · 3b 30 s",
-        "3a 40 s na nogę · 3b 30 s"
+        "30 s",
+        "30 s",
+        "30 s"
        ],
        "hints": []
       },
@@ -1269,12 +1365,26 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "55 s",
+        "55 s",
+        "55 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -1283,9 +1393,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 55 s · 5b 50 s",
-        "5a 55 s · 5b 50 s",
-        "5a 55 s · 5b 50 s"
+        "50 s",
+        "50 s",
+        "50 s"
        ],
        "hints": []
       },
@@ -1311,19 +1421,32 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "16 powt.",
+        "16 powt.",
+        "16 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 16 powt. · 7b 14 powt. na nogę",
-        "7a 16 powt. · 7b 14 powt. na nogę",
-        "7a 16 powt. · 7b 14 powt. na nogę"
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę"
        ],
        "hints": []
       }
@@ -1532,12 +1655,26 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s na nogę",
+        "45 s na nogę",
+        "45 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -1546,9 +1683,9 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 45 s na nogę · 3b 35 s",
-        "3a 45 s na nogę · 3b 35 s",
-        "3a 45 s na nogę · 3b 35 s"
+        "35 s",
+        "35 s",
+        "35 s"
        ],
        "hints": []
       },
@@ -1766,12 +1903,26 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "60 s",
+        "60 s",
+        "60 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -1780,9 +1931,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 60 s · 5b 55 s",
-        "5a 60 s · 5b 55 s",
-        "5a 60 s · 5b 55 s"
+        "55 s",
+        "55 s",
+        "55 s"
        ],
        "hints": []
       },
@@ -1808,19 +1959,32 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "18 powt.",
+        "18 powt.",
+        "18 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 18 powt. · 7b 16 powt. na nogę",
-        "7a 18 powt. · 7b 16 powt. na nogę",
-        "7a 18 powt. · 7b 16 powt. na nogę"
+        "16 powt. na nogę",
+        "16 powt. na nogę",
+        "16 powt. na nogę"
        ],
        "hints": []
       }
@@ -2027,12 +2191,26 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s na nogę",
+        "50 s na nogę",
+        "50 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -2041,9 +2219,9 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 50 s na nogę · 3b 40 s",
-        "3a 50 s na nogę · 3b 40 s",
-        "3a 50 s na nogę · 3b 40 s"
+        "40 s",
+        "40 s",
+        "40 s"
        ],
        "hints": []
       },
@@ -2261,12 +2439,26 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "65 s",
+        "65 s",
+        "65 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -2275,9 +2467,9 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 65 s · 5b 60 s",
-        "5a 65 s · 5b 60 s",
-        "5a 65 s · 5b 60 s"
+        "60 s",
+        "60 s",
+        "60 s"
        ],
        "hints": []
       },
@@ -2303,19 +2495,32 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 20 powt. · 7b 18 powt. na nogę",
-        "7a 20 powt. · 7b 18 powt. na nogę",
-        "7a 20 powt. · 7b 18 powt. na nogę"
+        "18 powt. na nogę",
+        "18 powt. na nogę",
+        "18 powt. na nogę"
        ],
        "hints": []
       }
@@ -2528,12 +2733,27 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s na nogę",
+        "30 s na nogę",
+        "30 s na nogę",
+        "30 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -2542,10 +2762,10 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s"
+        "20 s",
+        "20 s",
+        "20 s",
+        "20 s"
        ],
        "hints": []
       },
@@ -2771,12 +2991,27 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -2785,10 +3020,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s"
+        "40 s",
+        "40 s",
+        "40 s",
+        "40 s"
        ],
        "hints": []
       },
@@ -2814,20 +3049,34 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt.",
+        "12 powt.",
+        "12 powt.",
+        "12 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę"
+        "10 powt. na nogę",
+        "10 powt. na nogę",
+        "10 powt. na nogę",
+        "10 powt. na nogę"
        ],
        "hints": []
       }
@@ -3040,12 +3289,27 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "35 s na nogę",
+        "35 s na nogę",
+        "35 s na nogę",
+        "35 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -3054,10 +3318,10 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s"
+        "25 s",
+        "25 s",
+        "25 s",
+        "25 s"
        ],
        "hints": []
       },
@@ -3283,12 +3547,27 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s",
+        "50 s",
+        "50 s",
+        "50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -3297,10 +3576,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s"
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s"
        ],
        "hints": []
       },
@@ -3326,20 +3605,34 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt.",
+        "14 powt.",
+        "14 powt.",
+        "14 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę"
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę"
        ],
        "hints": []
       }
@@ -3554,12 +3847,27 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "40 s na nogę",
+        "40 s na nogę",
+        "40 s na nogę",
+        "40 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -3568,10 +3876,10 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 40 s na nogę · 3b 30 s",
-        "3a 40 s na nogę · 3b 30 s",
-        "3a 40 s na nogę · 3b 30 s",
-        "3a 40 s na nogę · 3b 30 s"
+        "30 s",
+        "30 s",
+        "30 s",
+        "30 s"
        ],
        "hints": []
       },
@@ -3796,12 +4104,27 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "55 s",
+        "55 s",
+        "55 s",
+        "55 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -3810,10 +4133,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 55 s · 5b 50 s",
-        "5a 55 s · 5b 50 s",
-        "5a 55 s · 5b 50 s",
-        "5a 55 s · 5b 50 s"
+        "50 s",
+        "50 s",
+        "50 s",
+        "50 s"
        ],
        "hints": []
       },
@@ -3839,20 +4162,34 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "16 powt.",
+        "16 powt.",
+        "16 powt.",
+        "16 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 16 powt. · 7b 14 powt. na nogę",
-        "7a 16 powt. · 7b 14 powt. na nogę",
-        "7a 16 powt. · 7b 14 powt. na nogę",
-        "7a 16 powt. · 7b 14 powt. na nogę"
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę",
+        "14 powt. na nogę"
        ],
        "hints": []
       }
@@ -4068,12 +4405,27 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s na nogę",
+        "45 s na nogę",
+        "45 s na nogę",
+        "45 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -4082,10 +4434,10 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 45 s na nogę · 3b 35 s",
-        "3a 45 s na nogę · 3b 35 s",
-        "3a 45 s na nogę · 3b 35 s",
-        "3a 45 s na nogę · 3b 35 s"
+        "35 s",
+        "35 s",
+        "35 s",
+        "35 s"
        ],
        "hints": []
       },
@@ -4307,12 +4659,27 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "60 s",
+        "60 s",
+        "60 s",
+        "60 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -4321,10 +4688,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 60 s · 5b 55 s",
-        "5a 60 s · 5b 55 s",
-        "5a 60 s · 5b 55 s",
-        "5a 60 s · 5b 55 s"
+        "55 s",
+        "55 s",
+        "55 s",
+        "55 s"
        ],
        "hints": []
       },
@@ -4350,20 +4717,34 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "18 powt.",
+        "18 powt.",
+        "18 powt.",
+        "18 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 18 powt. · 7b 16 powt. na nogę",
-        "7a 18 powt. · 7b 16 powt. na nogę",
-        "7a 18 powt. · 7b 16 powt. na nogę",
-        "7a 18 powt. · 7b 16 powt. na nogę"
+        "16 powt. na nogę",
+        "16 powt. na nogę",
+        "16 powt. na nogę",
+        "16 powt. na nogę"
        ],
        "hints": []
       }
@@ -4573,12 +4954,27 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s na nogę",
+        "50 s na nogę",
+        "50 s na nogę",
+        "50 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -4587,10 +4983,10 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 50 s na nogę · 3b 40 s",
-        "3a 50 s na nogę · 3b 40 s",
-        "3a 50 s na nogę · 3b 40 s",
-        "3a 50 s na nogę · 3b 40 s"
+        "40 s",
+        "40 s",
+        "40 s",
+        "40 s"
        ],
        "hints": []
       },
@@ -4815,12 +5211,27 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "65 s",
+        "65 s",
+        "65 s",
+        "65 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -4829,10 +5240,10 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 65 s · 5b 60 s",
-        "5a 65 s · 5b 60 s",
-        "5a 65 s · 5b 60 s",
-        "5a 65 s · 5b 60 s"
+        "60 s",
+        "60 s",
+        "60 s",
+        "60 s"
        ],
        "hints": []
       },
@@ -4858,20 +5269,34 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "20 powt.",
+        "20 powt.",
+        "20 powt.",
+        "20 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 20 powt. · 7b 18 powt. na nogę",
-        "7a 20 powt. · 7b 18 powt. na nogę",
-        "7a 20 powt. · 7b 18 powt. na nogę",
-        "7a 20 powt. · 7b 18 powt. na nogę"
+        "18 powt. na nogę",
+        "18 powt. na nogę",
+        "18 powt. na nogę",
+        "18 powt. na nogę"
        ],
        "hints": []
       }
@@ -5084,12 +5509,28 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "30 s na nogę",
+        "30 s na nogę",
+        "30 s na nogę",
+        "30 s na nogę",
+        "30 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -5098,11 +5539,11 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s",
-        "3a 30 s na nogę · 3b 20 s"
+        "20 s",
+        "20 s",
+        "20 s",
+        "20 s",
+        "20 s"
        ],
        "hints": []
       },
@@ -5316,12 +5757,28 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -5330,11 +5787,11 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s",
-        "5a 45 s · 5b 40 s"
+        "40 s",
+        "40 s",
+        "40 s",
+        "40 s",
+        "40 s"
        ],
        "hints": []
       },
@@ -5360,21 +5817,36 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "12 powt.",
+        "12 powt.",
+        "12 powt.",
+        "12 powt.",
+        "12 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę",
-        "7a 12 powt. · 7b 10 powt. na nogę"
+        "10 powt. na nogę",
+        "10 powt. na nogę",
+        "10 powt. na nogę",
+        "10 powt. na nogę",
+        "10 powt. na nogę"
        ],
        "hints": []
       }
@@ -5576,12 +6048,28 @@
       },
       {
        "order": 3,
-       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę + 3b. Skip A w miejscu",
+       "name": "3a. Wbiegi na step — jak najszybciej, na każdą nogę",
        "videos": [
         {
          "label": "wbiegi na step",
          "url": "https://www.youtube.com/shorts/R8W8DA4jqvI"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "35 s na nogę",
+        "35 s na nogę",
+        "35 s na nogę",
+        "35 s na nogę",
+        "35 s na nogę"
+       ],
+       "hints": []
+      },
+      {
+       "order": 32,
+       "name": "3b. Skip A w miejscu",
+       "videos": [
         {
          "label": "skip A",
          "url": "https://www.youtube.com/watch?v=qAJ9dNuI10g&list=PLfOrXacPgBr8&index=12"
@@ -5590,11 +6078,11 @@
        "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s",
-        "3a 35 s na nogę · 3b 25 s"
+        "25 s",
+        "25 s",
+        "25 s",
+        "25 s",
+        "25 s"
        ],
        "hints": []
       },
@@ -5807,12 +6295,28 @@
       },
       {
        "order": 5,
-       "name": "5a. Deska + 5b. Swing z kettlem",
+       "name": "5a. Deska",
        "videos": [
         {
          "label": "deska",
          "url": "https://www.youtube.com/shorts/FR8qYjA8pKQ"
-        },
+        }
+       ],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "50 s",
+        "50 s",
+        "50 s",
+        "50 s",
+        "50 s"
+       ],
+       "hints": []
+      },
+      {
+       "order": 52,
+       "name": "5b. Swing z kettlem",
+       "videos": [
         {
          "label": "swing z kettlem",
          "url": "https://www.youtube.com/watch?v=4Dci3QRdX64&list=PLfOrXacPgBr8&index=7"
@@ -5821,11 +6325,11 @@
        "hasWeight": true,
        "singleResult": false,
        "plannedSets": [
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s",
-        "5a 50 s · 5b 45 s"
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s",
+        "45 s"
        ],
        "hints": []
       },
@@ -5851,21 +6355,36 @@
       },
       {
        "order": 7,
-       "name": "7a. Uginanie nóg / Nordic curl + 7b. Wyskok jednonóż z boxa / ławki",
+       "name": "7a. Uginanie nóg / Nordic curl",
+       "videos": [],
+       "hasWeight": false,
+       "singleResult": false,
+       "plannedSets": [
+        "14 powt.",
+        "14 powt.",
+        "14 powt.",
+        "14 powt.",
+        "14 powt."
+       ],
+       "hints": []
+      },
+      {
+       "order": 72,
+       "name": "7b. Wyskok jednonóż z boxa / ławki",
        "videos": [
         {
          "label": "wyskok jednonóż",
          "url": "https://www.youtube.com/watch?v=ftndpO2gblI"
         }
        ],
-       "hasWeight": true,
+       "hasWeight": false,
        "singleResult": false,
        "plannedSets": [
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę",
-        "7a 14 powt. · 7b 12 powt. na nogę"
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę",
+        "12 powt. na nogę"
        ],
        "hints": []
       }
