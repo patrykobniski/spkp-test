@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { parseMaxSeed, resolveGoal } from "./resolveGoal";
+import {
+  parseMaxSeed,
+  plannedRepsPrefill,
+  plannedWeightPrefill,
+  resolveGoal,
+} from "./resolveGoal";
 
 describe("parseMaxSeed", () => {
   it("parses MAX (M)/(N)/(O) and bare MAX", () => {
@@ -51,5 +56,28 @@ describe("resolveGoal", () => {
     const r = resolveGoal("M−4", "pompki", {});
     expect(r.needsMax).toBe(true);
     expect(r.display).toBe("M−4");
+  });
+});
+
+describe("plannedRepsPrefill", () => {
+  const maxes = { pompki_M: 17 };
+
+  it("fills plain powt. and kg sets", () => {
+    const plain = resolveGoal("12 powt. na nogę", null, {});
+    expect(plannedRepsPrefill("12 powt. na nogę", plain)).toBe("12");
+    const kg = resolveGoal("5 × 47,5 kg", null, {});
+    expect(plannedRepsPrefill("5 × 47,5 kg", kg)).toBe("5");
+  });
+
+  it("keeps 3+2 and fills resolved M−4", () => {
+    const plus = resolveGoal("3+2", "pompki", maxes);
+    expect(plannedRepsPrefill("3+2", plus)).toBe("3+2");
+    const m = resolveGoal("M−4", "pompki", maxes);
+    expect(plannedRepsPrefill("M−4", m)).toBe("13");
+  });
+
+  it("extracts weight from plan", () => {
+    expect(plannedWeightPrefill("5 × 47,5 kg")).toBe(47.5);
+    expect(plannedWeightPrefill("15 powt.")).toBeNull();
   });
 });

@@ -118,3 +118,55 @@ export function parseRepsNumber(raw: string | null | undefined): number | null {
   if (!m) return null;
   return Math.round(Number(m[1]));
 }
+
+/**
+ * Wartość startowa pola „powtórzenia” z celu planu.
+ * Użytkownik może ją zmienić (np. 12 → 10), jeśli zrobił mniej.
+ */
+export function plannedRepsPrefill(
+  planned: string | undefined,
+  resolved: ResolvedGoal,
+): string {
+  if (!planned) return "";
+  if (parseMaxSeed(planned)) return "";
+  if (resolved.needsMax) return "";
+
+  if (resolved.primaryNumber != null) {
+    const m = resolved.display.match(/=\s*(.+)$/);
+    return m ? m[1].trim() : String(resolved.primaryNumber);
+  }
+
+  const t = planned.trim();
+
+  let m = t.match(/^(\d+)\s*powt/i);
+  if (m) return m[1];
+
+  m = t.match(/^(\d+)\s*[×xX]\s*[\d.,]+\s*kg/i);
+  if (m) return m[1];
+
+  m = t.match(/^(\d+\+\d+)$/);
+  if (m) return m[1];
+
+  m = t.match(/^(\d+x(?:\+\d+x)?)$/i);
+  if (m) return m[1];
+
+  m = t.match(/^(\d+)$/);
+  if (m) return m[1];
+
+  m = t.match(/^(\d+)\s*s\b/i);
+  if (m) return m[1];
+
+  // Złożone cele (np. „3a 30 s…”) — cały tekst jako start do edycji
+  return t;
+}
+
+/** Ciężar z celu typu „5 × 47,5 kg”, jeśli jest w planie. */
+export function plannedWeightPrefill(planned: string | undefined): number | null {
+  if (!planned) return null;
+  const m =
+    planned.match(/[×xX]\s*([\d.,]+)\s*kg/i) ||
+    planned.match(/([\d.,]+)\s*kg\b/i);
+  if (!m) return null;
+  const n = Number(m[1].replace(",", "."));
+  return Number.isFinite(n) ? n : null;
+}

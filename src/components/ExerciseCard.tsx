@@ -4,6 +4,8 @@ import {
   maxKey,
   parseMaxSeed,
   parseRepsNumber,
+  plannedRepsPrefill,
+  plannedWeightPrefill,
   resolveGoal,
 } from "../lib/resolveGoal";
 import { setsForExercise } from "../lib/progress";
@@ -70,12 +72,35 @@ export function ExerciseCard({
     );
   }
 
+  function defaultsFor(setIndex: number) {
+    const planned = exercise.plannedSets[setIndex];
+    const family = maxFamily(exercise.name);
+    const resolved = planned
+      ? resolveGoal(planned, family, maxes)
+      : { display: "Dodatkowa seria", needsMax: false, primaryNumber: null, letter: null };
+    const repsPrefill = plannedRepsPrefill(planned, resolved);
+    const weightPrefill = plannedWeightPrefill(planned);
+    return { planned, family, resolved, repsPrefill, weightPrefill };
+  }
+
   function patch(setIndex: number, partial: Partial<SetLog>, triggerTimer = false) {
     const base = getRow(setIndex);
+    const { planned, family, repsPrefill, weightPrefill } = defaultsFor(setIndex);
     const next = { ...base, ...partial };
-    const family = maxFamily(exercise.name);
-    const planned = exercise.plannedSets[setIndex] ?? "";
-    const seed = parseMaxSeed(planned);
+
+    // Przy odhaczeniu bez edycji — zapisz domyślne powtórzenia / kg z planu
+    if (next.done === 1) {
+      if (next.reps == null && repsPrefill) next.reps = repsPrefill;
+      if (
+        exercise.hasWeight &&
+        next.weight_kg == null &&
+        weightPrefill != null
+      ) {
+        next.weight_kg = weightPrefill;
+      }
+    }
+
+    const seed = parseMaxSeed(planned ?? "");
     let extra: { max_key?: string; max_value?: number; max_source?: string } = {};
     if (seed && family && next.done === 1) {
       const val = parseRepsNumber(next.reps) ?? parseRepsNumber(next.result_text);
@@ -123,12 +148,17 @@ export function ExerciseCard({
 
       {indices.map((setIndex) => {
         const row = getRow(setIndex);
-        const planned = exercise.plannedSets[setIndex];
-        const family = maxFamily(exercise.name);
-        const resolved = planned
-          ? resolveGoal(planned, family, maxes)
-          : { display: "Dodatkowa seria", needsMax: false, primaryNumber: null, letter: null };
+        const { resolved, repsPrefill, weightPrefill } = defaultsFor(setIndex);
         const isExtra = setIndex >= plannedCount;
+        const repsValue = row.reps ?? repsPrefill;
+        const kgValue =
+          row.weight_kg != null
+            ? String(row.weight_kg)
+            : weightPrefill != null
+              ? String(weightPrefill)
+              : "";
+        const kgPlaceholder =
+          weightPlaceholder != null ? String(weightPlaceholder) : undefined;
 
         return (
           <div key={setIndex} className={`set-row${row.done ? " done" : ""}`}>
@@ -162,26 +192,17 @@ export function ExerciseCard({
                 <div className={`fields${exercise.hasWeight ? "" : " single"}`}>
                   <MobileField
                     label="powtórzenia"
-                    value={row.reps ?? ""}
-                    inputMode="numeric"
-                    placeholder={
-                      resolved.primaryNumber != null
-                        ? String(resolved.primaryNumber)
-                        : undefined
-                    }
+                    value={repsValue}
+                    inputMode="text"
                     enterKeyHint={exercise.hasWeight ? "next" : "done"}
                     onCommit={(v) => patch(setIndex, { reps: v })}
                   />
                   {exercise.hasWeight && (
                     <MobileField
                       label="kg"
-                      value={row.weight_kg == null ? "" : String(row.weight_kg)}
+                      value={kgValue}
                       inputMode="decimal"
-                      placeholder={
-                        weightPlaceholder != null
-                          ? String(weightPlaceholder)
-                          : undefined
-                      }
+                      placeholder={kgValue ? undefined : kgPlaceholder}
                       onCommit={(raw) => {
                         const v = raw.trim().replace(",", ".");
                         if (v === "" || v === ".") {
