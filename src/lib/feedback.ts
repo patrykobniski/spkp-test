@@ -1,33 +1,51 @@
-/** Odblokowanie audio / sygnały — Opera i Safari wymagają gestu użytkownika. */
+/**
+ * Sygnały minutnika.
+ * Opera często blokuje play() po setTimeout — trzymamy cichy keep-alive
+ * od gestu Start i na końcu gramy głośny beep + SpeechSynthesis.
+ */
 
-let ctx: AudioContext | null = null;
+const STORAGE_KEY = "spkp_sound_ok";
+
 let unlocked = false;
+let keepAlive: HTMLAudioElement | null = null;
+let beepEl: HTMLAudioElement | null = null;
 
-function getCtx(): AudioContext | null {
-  const AC =
-    window.AudioContext ||
-    (window as unknown as { webkitAudioContext?: typeof AudioContext })
-      .webkitAudioContext;
-  if (!AC) return null;
-  if (!ctx) ctx = new AC();
-  return ctx;
+function beepUrl(): string {
+  const base = import.meta.env.BASE_URL.endsWith("/")
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+  return `${base}beep.wav`;
 }
 
-/** Wywołać synchronicznie w obsłudze kliknięcia (odhacz seria / Start). */
-export async function unlockAudio(): Promise<void> {
-  const c = getCtx();
-  if (!c) return;
+function ensureElements(): { keep: HTMLAudioElement; beep: HTMLAudioElement } {
+  if (!keepAlive) {
+    keepAlive = new Audio(beepUrl());
+    keepAlive.loop = true;
+    keepAlive.preload = "auto";
+    keepAlive.volume = 0.001;
+    keepAlive.setAttribute("playsinline", "true");
+  }
+  if (!beepEl) {
+    beepEl = new Audio(beepUrl());
+    beepEl.preload = "auto";
+    beepEl.volume = 1;
+    beepEl.setAttribute("playsinline", "true");
+  }
+  return { keep: keepAlive, beep: beepEl };
+}
+
+export function isSoundEnabled(): boolean {
   try {
-    if (c.state === "suspended") await c.resume();
-    // cichy „tick”, żeby Opera trzymała kontekst odblokowany
-    const g = c.createGain();
-    g.gain.value = 0.0001;
-    const o = c.createOscillator();
-    o.connect(g);
-    g.connect(c.destination);
-    o.start();
-    o.stop(c.currentTime + 0.01);
-    unlocked = true;
+    return localStorage.getItem(STORAGE_KEY) === "1" || unlocked;
+  } catch {
+    return unlocked;
+  }
+}
+
+export function markSoundEnabled(): void {
+  unlocked = true;
+  try {
+    localStorage.setItem(STORAGE_KEY, "1");
   } catch {
     /* ignore */
   }
@@ -40,88 +58,116 @@ export function tryVibrate(pattern: number | number[] = [200, 100, 200]): void {
       navigator.vibrate(pattern);
     }
   } catch {
-    /* Opera desktop / polityka przeglądarki */
+    /* Opera desktop / polityka */
   }
 }
 
-/** Krótki WAV (beep) — fallback gdy Web Audio jest zawieszony. */
-function playHtmlBeep(): void {
-  // 880 Hz, ~0.2 s, mono 8-bit
-  const sampleRate = 16000;
-  const duration = 0.2;
-  const n = Math.floor(sampleRate * duration);
-  const data = new Uint8Array(44 + n);
-  const view = new DataView(data.buffer);
-  const write = (o: number, s: string) => {
-    for (let i = 0; i < s.length; i++) view.setUint8(o + i, s.charCodeAt(i));
-  };
-  write(0, "RIFF");
-  view.setUint32(4, 36 + n, true);
-  write(8, "WAVE");
-  write(12, "fmt ");
-  view.setUint32(16, 16, true);
-  view.setUint16(20, 1, true);
-  view.setUint16(22, 1, true);
-  view.setUint32(24, sampleRate, true);
-  view.setUint32(28, sampleRate, true);
-  view.setUint16(32, 1, true);
-  view.setUint16(34, 8, true);
-  write(36, "data");
-  view.setUint32(40, n, true);
-  for (let i = 0; i < n; i++) {
-    const t = i / sampleRate;
-    const env = Math.min(1, t * 30) * Math.min(1, (duration - t) * 30);
-    const sample = 128 + Math.sin(2 * Math.PI * 880 * t) * 70 * env;
-    data[44 + i] = Math.max(0, Math.min(255, sample | 0));
-  }
-  const blob = new Blob([data], { type: "audio/wav" });
-  const url = URL.createObjectURL(blob);
-  const audio = new Audio(url);
-  audio.volume = 1;
-  void audio.play().finally(() => URL.revokeObjectURL(url));
-}
-
-async function playWebBeep(): Promise<boolean> {
-  const c = getCtx();
-  if (!c) return false;
+function speakTime(): void {
   try {
-    if (c.state === "suspended") await c.resume();
-    const now = c.currentTime;
-    for (let i = 0; i < 3; i++) {
-      const o = c.createOscillator();
-      const g = c.createGain();
-      o.type = "square";
-      o.frequency.value = i === 2 ? 1175 : 880;
-      o.connect(g);
-      g.connect(c.destination);
-      const t0 = now + i * 0.2;
-      g.gain.setValueAtTime(0.0001, t0);
-      g.gain.exponentialRampToValueAtTime(0.22, t0 + 0.02);
-      g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.16);
-      o.start(t0);
-      o.stop(t0 + 0.17);
-    }
-    return true;
+    if (!("speechSynthesis" in window)) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance("Czas");
+    u.lang = "pl-PL";
+    u.rate = 1.15;
+    u.volume = 1;
+    window.speechSynthesis.speak(u);
   } catch {
-    return false;
+    /* ignore */
   }
 }
 
+/** Odblokuj + potwierdź dźwiękiem — wywołać przy tapnięciu „Włącz dźwięk”. */
+export async function enableSound(): Promise<{ ok: boolean; error?: string }> {
+  const { keep, beep } = ensureElements();
+  try {
+    keep.currentTime = 0;
+    keep.volume = 0.001;
+    await keep.play();
+    keep.pause();
+    keep.currentTime = 0;
+
+    beep.currentTime = 0;
+    beep.volume = 1;
+    await beep.play();
+    speakTime();
+    tryVibrate([180, 80, 180]);
+    markSoundEnabled();
+    unlocked = true;
+    return { ok: true };
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    return { ok: false, error: msg };
+  }
+}
+
+/**
+ * Start przerwy — w tym samym geście co Start / odhaczenie.
+ * Uruchamia cichy keep-alive, żeby Opera pozwoliła zagrać na końcu.
+ */
+export async function beginRestAudio(): Promise<void> {
+  const { keep } = ensureElements();
+  try {
+    keep.pause();
+    keep.currentTime = 0;
+    keep.volume = 0.001;
+    await keep.play();
+    unlocked = true;
+  } catch {
+    // spróbuj jeszcze raz po enableSound w UI
+  }
+  tryVibrate(30);
+}
+
+export function stopRestAudio(): void {
+  try {
+    keepAlive?.pause();
+    if (keepAlive) keepAlive.currentTime = 0;
+  } catch {
+    /* ignore */
+  }
+}
+
+/** Koniec przerwy — głośny sygnał (działa najlepiej po beginRestAudio). */
 export async function playAlert(): Promise<void> {
-  await unlockAudio();
-  const ok = await playWebBeep();
-  if (!ok) {
-    try {
-      playHtmlBeep();
-      window.setTimeout(() => playHtmlBeep(), 220);
-      window.setTimeout(() => playHtmlBeep(), 440);
-    } catch {
-      /* ignore */
-    }
+  stopRestAudio();
+  tryVibrate([240, 100, 240, 100, 360]);
+  speakTime();
+
+  const { beep } = ensureElements();
+  try {
+    beep.pause();
+    beep.currentTime = 0;
+    beep.volume = 1;
+    await beep.play();
+    window.setTimeout(() => {
+      try {
+        beep.currentTime = 0;
+        void beep.play();
+      } catch {
+        /* ignore */
+      }
+    }, 280);
+    window.setTimeout(() => {
+      try {
+        beep.currentTime = 0;
+        void beep.play();
+      } catch {
+        /* ignore */
+      }
+    }, 560);
+    markSoundEnabled();
+  } catch {
+    // ostatnia deska: speech już poszło
+    speakTime();
   }
-  tryVibrate([220, 100, 220, 100, 320]);
 }
 
-export function isAudioUnlocked(): boolean {
-  return unlocked && !!ctx && ctx.state === "running";
+/** Alias wstecznej kompatybilności */
+export async function unlockAudio(): Promise<void> {
+  if (isSoundEnabled()) {
+    await beginRestAudio().catch(() => undefined);
+    stopRestAudio();
+    return;
+  }
+  await enableSound();
 }

@@ -1,10 +1,16 @@
 import { useEffect, useImperativeHandle, useRef, useState, forwardRef } from "react";
-import { playAlert, tryVibrate, unlockAudio } from "../lib/feedback";
+import {
+  beginRestAudio,
+  enableSound,
+  isSoundEnabled,
+  playAlert,
+  stopRestAudio,
+  tryVibrate,
+} from "../lib/feedback";
 
 const PRESETS = [45, 90, 120, 180];
 
 export type RestTimerHandle = {
-  /** Wywołać w tym samym kliknięciu co odhaczenie serii (gest → dźwięk w Operze). */
   startFromGesture: (sec?: number) => void;
 };
 
@@ -26,13 +32,15 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
   const [seconds, setSeconds] = useState(90);
   const [remaining, setRemaining] = useState<number | null>(null);
   const [readyAtLabel, setReadyAtLabel] = useState<string | null>(null);
+  const [soundOk, setSoundOk] = useState(() => isSoundEnabled());
+  const [soundMsg, setSoundMsg] = useState<string | null>(null);
   const endAt = useRef<number | null>(null);
   const beeped = useRef(false);
   const running = remaining != null;
 
   useImperativeHandle(ref, () => ({
     startFromGesture(sec = 90) {
-      void unlockAudio();
+      void beginRestAudio();
       tryVibrate(40);
       start(sec);
     },
@@ -67,12 +75,27 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
     beeped.current = false;
     setRemaining(null);
     setReadyAtLabel(null);
+    stopRestAudio();
   }
 
   async function startWithGesture(sec: number) {
-    await unlockAudio();
+    await beginRestAudio();
     tryVibrate(40);
     start(sec);
+  }
+
+  async function onEnableSound() {
+    setSoundMsg(null);
+    const res = await enableSound();
+    if (res.ok) {
+      setSoundOk(true);
+      setSoundMsg("Słyszysz sygnał? Dźwięk włączony.");
+    } else {
+      setSoundOk(false);
+      setSoundMsg(
+        "Opera zablokowała dźwięk. Wejdź w ustawienia witryny (ikona przy adresie) → Dźwięk → Zezwól, potem kliknij tu ponownie.",
+      );
+    }
   }
 
   const overdue = remaining != null && remaining < 0;
@@ -83,15 +106,11 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
       {!open && (
         <button
           type="button"
-          className={`rest-fab${overdue ? " overdue" : ""}${running ? " running" : ""}`}
+          className={`rest-fab${overdue ? " overdue" : ""}${running ? " running" : ""}${!soundOk ? " needs-sound" : ""}`}
           aria-label="Minutnik przerwy"
-          onClick={() => {
-            void unlockAudio();
-            setOpen(true);
-            if (overdue) void playAlert();
-          }}
+          onClick={() => setOpen(true)}
         >
-          {fabLabel}
+          {!soundOk ? "🔊?" : fabLabel}
         </button>
       )}
 
@@ -112,6 +131,29 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
               Zwiń
             </button>
           </div>
+
+          {!soundOk && (
+            <div className="rest-sound-gate">
+              <p>
+                Opera domyślnie blokuje dźwięk stron. Włącz go jednym tapnięciem:
+              </p>
+              <button type="button" className="primary" onClick={() => void onEnableSound()}>
+                Włącz dźwięk minutnika
+              </button>
+              <ol className="rest-sound-help">
+                <li>Ikona przy adresie strony (kłódka / i)</li>
+                <li>Uprawnienia / Ustawienia witryny</li>
+                <li>
+                  <strong>Dźwięk → Zezwól</strong>
+                </li>
+                <li>Wróć i kliknij przycisk powyżej</li>
+              </ol>
+            </div>
+          )}
+
+          {soundMsg && (
+            <p className={`rest-sound-msg${soundOk ? "" : " error"}`}>{soundMsg}</p>
+          )}
 
           <div className={`rest-time${overdue ? " overdue" : ""}`}>
             {remaining != null ? formatSignedSeconds(remaining) : `${seconds}s`}
@@ -144,16 +186,8 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
             >
               Start
             </button>
-            <button
-              type="button"
-              onClick={() => {
-                void unlockAudio();
-                void playAlert();
-              }}
-              aria-label="Test dźwięku i wibracji"
-              title="Test dźwięku"
-            >
-              🔊
+            <button type="button" onClick={() => void onEnableSound()} aria-label="Test dźwięku">
+              🔊 Test
             </button>
             <button type="button" onClick={stop}>
               Stop

@@ -6,7 +6,7 @@ import { Login } from "./components/Login";
 import { ExerciseCard } from "./components/ExerciseCard";
 import { RestTimer, type RestTimerHandle } from "./components/RestTimer";
 import { useWakeLock } from "./hooks/useWakeLock";
-import { unlockAudio } from "./lib/feedback";
+import { beginRestAudio, enableSound, unlockAudio } from "./lib/feedback";
 import {
   buildExerciseOrderIndex,
   dayDoneCount,
@@ -44,6 +44,7 @@ export default function App() {
   }, []);
 
   function startRestTimer() {
+    void beginRestAudio();
     restTimerRef.current?.startFromGesture(90);
   }
 
@@ -413,6 +414,13 @@ export default function App() {
         <section className="card">
           <h2>Ustawienia</h2>
           <div className="ex-actions" style={{ flexDirection: "column" }}>
+            <button
+              type="button"
+              className="primary"
+              onClick={() => void enableSound()}
+            >
+              Włącz / przetestuj dźwięk minutnika
+            </button>
             <button type="button" onClick={() => void download("json")}>
               Pobierz kopię wyników (JSON)
             </button>
@@ -429,9 +437,20 @@ export default function App() {
               Wyloguj
             </button>
           </div>
-          <p className="muted" style={{ marginTop: "1rem" }}>
-            Motyw jasny/ciemny według ustawień telefonu.
-          </p>
+          <div className="muted" style={{ marginTop: "1rem", fontSize: "0.92rem" }}>
+            <p style={{ marginTop: 0 }}>
+              <strong>Opera — jak włączyć dźwięk strony:</strong>
+            </p>
+            <ol style={{ paddingLeft: "1.2rem", margin: "0.35rem 0" }}>
+              <li>Ikona przy adresie (kłódka / „i”)</li>
+              <li>Uprawnienia witryny / Site settings</li>
+              <li>
+                <strong>Dźwięk → Zezwól</strong> (Sound → Allow)
+              </li>
+              <li>Wróć i kliknij „Włącz / przetestuj dźwięk”</li>
+            </ol>
+            <p>Powinieneś usłyszeć piknięcie i głos „Czas”.</p>
+          </div>
         </section>
       )}
 
