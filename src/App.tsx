@@ -1,11 +1,12 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import plan from "../data/plan-spkp.json";
 import { AuthError, exportData, getProgress, logout, me } from "./api/client";
 import { saveQueue } from "./api/saveQueue";
 import { Login } from "./components/Login";
 import { ExerciseCard } from "./components/ExerciseCard";
-import { RestTimer } from "./components/RestTimer";
+import { RestTimer, type RestTimerHandle } from "./components/RestTimer";
 import { useWakeLock } from "./hooks/useWakeLock";
+import { unlockAudio } from "./lib/feedback";
 import {
   buildExerciseOrderIndex,
   dayDoneCount,
@@ -29,8 +30,22 @@ export default function App() {
   const [note, setNote] = useState("");
   const [maxes, setMaxes] = useState<MaxValues>({});
   const [allSetsCache, setAllSetsCache] = useState<SetLog[]>([]);
-  const [timerToken, setTimerToken] = useState(0);
   const [loading, setLoading] = useState(false);
+  const restTimerRef = useRef<RestTimerHandle>(null);
+
+  useEffect(() => {
+    const unlock = () => void unlockAudio();
+    document.addEventListener("pointerdown", unlock, { passive: true });
+    document.addEventListener("touchstart", unlock, { passive: true });
+    return () => {
+      document.removeEventListener("pointerdown", unlock);
+      document.removeEventListener("touchstart", unlock);
+    };
+  }, []);
+
+  function startRestTimer() {
+    restTimerRef.current?.startFromGesture(90);
+  }
 
   const orderIndex = useMemo(
     () => buildExerciseOrderIndex(typedPlan.weeks),
@@ -280,7 +295,7 @@ export default function App() {
                       onDeleteSet={(si) =>
                         onDeleteSet(todayWeek, todayDayIndex, ex.order, si)
                       }
-                      onSetDone={() => setTimerToken((t) => t + 1)}
+                      onSetDone={startRestTimer}
                     />
                   ))}
                 </div>
@@ -368,7 +383,7 @@ export default function App() {
                     )}
                     onChangeSet={onChangeSet}
                     onDeleteSet={(si) => onDeleteSet(week, dayIndex, ex.order, si)}
-                    onSetDone={() => setTimerToken((t) => t + 1)}
+                    onSetDone={startRestTimer}
                   />
                 ))}
               </div>
@@ -420,7 +435,7 @@ export default function App() {
         </section>
       )}
 
-      <RestTimer autoStartToken={timerToken} />
+      <RestTimer ref={restTimerRef} />
 
       <nav className="nav" aria-label="Nawigacja">
         {(

@@ -1,9 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useImperativeHandle, useRef, useState, forwardRef } from "react";
+import { playAlert, tryVibrate, unlockAudio } from "../lib/feedback";
 
 const PRESETS = [45, 90, 120, 180];
 
-type Props = {
-  autoStartToken: number;
+export type RestTimerHandle = {
+  /** Wywołać w tym samym kliknięciu co odhaczenie serii (gest → dźwięk w Operze). */
+  startFromGesture: (sec?: number) => void;
 };
 
 function formatClock(ms: number): string {
@@ -19,45 +21,22 @@ function formatSignedSeconds(sec: number): string {
   return `−${Math.abs(sec)}s`;
 }
 
-function playBeep() {
-  try {
-    const ctx = new AudioContext();
-    const now = ctx.currentTime;
-    for (let i = 0; i < 3; i++) {
-      const o = ctx.createOscillator();
-      const g = ctx.createGain();
-      o.type = "square";
-      o.frequency.value = i === 2 ? 1046 : 880;
-      o.connect(g);
-      g.connect(ctx.destination);
-      const t0 = now + i * 0.18;
-      g.gain.setValueAtTime(0.0001, t0);
-      g.gain.exponentialRampToValueAtTime(0.12, t0 + 0.02);
-      g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.14);
-      o.start(t0);
-      o.stop(t0 + 0.15);
-    }
-    window.setTimeout(() => void ctx.close(), 800);
-  } catch {
-    /* ignore */
-  }
-  if (navigator.vibrate) navigator.vibrate([180, 80, 180, 80, 280]);
-}
-
-export function RestTimer({ autoStartToken }: Props) {
+export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, ref) {
   const [open, setOpen] = useState(false);
   const [seconds, setSeconds] = useState(90);
-  /** null = stoi; liczba (też ujemna) = leci / po czasie */
   const [remaining, setRemaining] = useState<number | null>(null);
   const [readyAtLabel, setReadyAtLabel] = useState<string | null>(null);
   const endAt = useRef<number | null>(null);
   const beeped = useRef(false);
   const running = remaining != null;
 
-  useEffect(() => {
-    if (autoStartToken <= 0) return;
-    start(90);
-  }, [autoStartToken]);
+  useImperativeHandle(ref, () => ({
+    startFromGesture(sec = 90) {
+      void unlockAudio();
+      tryVibrate(40);
+      start(sec);
+    },
+  }));
 
   useEffect(() => {
     if (!running) return;
@@ -67,7 +46,7 @@ export function RestTimer({ autoStartToken }: Props) {
       setRemaining(left);
       if (left <= 0 && !beeped.current) {
         beeped.current = true;
-        playBeep();
+        void playAlert();
       }
     }, 200);
     return () => clearInterval(id);
@@ -90,18 +69,27 @@ export function RestTimer({ autoStartToken }: Props) {
     setReadyAtLabel(null);
   }
 
+  async function startWithGesture(sec: number) {
+    await unlockAudio();
+    tryVibrate(40);
+    start(sec);
+  }
+
   const overdue = remaining != null && remaining < 0;
   const fabLabel = remaining != null ? formatSignedSeconds(remaining) : `${seconds}s`;
 
   return (
     <>
-      {/* FAB tylko gdy panel zwinięty — nie zasłania zegara */}
       {!open && (
         <button
           type="button"
           className={`rest-fab${overdue ? " overdue" : ""}${running ? " running" : ""}`}
           aria-label="Minutnik przerwy"
-          onClick={() => setOpen(true)}
+          onClick={() => {
+            void unlockAudio();
+            setOpen(true);
+            if (overdue) void playAlert();
+          }}
         >
           {fabLabel}
         </button>
@@ -141,7 +129,7 @@ export function RestTimer({ autoStartToken }: Props) {
               <button
                 key={p}
                 type="button"
-                onClick={() => start(p)}
+                onClick={() => void startWithGesture(p)}
                 aria-label={`${p} sekund`}
               >
                 {p}
@@ -149,8 +137,23 @@ export function RestTimer({ autoStartToken }: Props) {
             ))}
           </div>
           <div className="ex-actions">
-            <button type="button" className="primary" onClick={() => start(seconds)}>
+            <button
+              type="button"
+              className="primary"
+              onClick={() => void startWithGesture(seconds)}
+            >
               Start
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                void unlockAudio();
+                void playAlert();
+              }}
+              aria-label="Test dźwięku i wibracji"
+              title="Test dźwięku"
+            >
+              🔊
             </button>
             <button type="button" onClick={stop}>
               Stop
@@ -160,4 +163,4 @@ export function RestTimer({ autoStartToken }: Props) {
       )}
     </>
   );
-}
+});
