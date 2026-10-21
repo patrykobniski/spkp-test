@@ -4,6 +4,7 @@ import {
   enableSound,
   isSoundEnabled,
   playAlert,
+  playCountdownTick,
   stopRestAudio,
   tryVibrate,
 } from "../lib/feedback";
@@ -35,7 +36,8 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
   const [soundOk, setSoundOk] = useState(() => isSoundEnabled());
   const [soundMsg, setSoundMsg] = useState<string | null>(null);
   const endAt = useRef<number | null>(null);
-  const beeped = useRef(false);
+  const finalBeeped = useRef(false);
+  const tickDone = useRef<Set<number>>(new Set());
   const running = remaining != null;
 
   useImperativeHandle(ref, () => ({
@@ -52,8 +54,17 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
       if (!endAt.current) return;
       const left = Math.ceil((endAt.current - Date.now()) / 1000);
       setRemaining(left);
-      if (left <= 0 && !beeped.current) {
-        beeped.current = true;
+
+      // Tylko ostatnie 3 sekundy: tick na 3, 2, 1
+      if (left === 3 || left === 2 || left === 1) {
+        if (!tickDone.current.has(left)) {
+          tickDone.current.add(left);
+          void playCountdownTick();
+        }
+      }
+
+      if (left <= 0 && !finalBeeped.current) {
+        finalBeeped.current = true;
         void playAlert();
       }
     }, 200);
@@ -64,7 +75,8 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
     const end = Date.now() + sec * 1000;
     setSeconds(sec);
     endAt.current = end;
-    beeped.current = false;
+    finalBeeped.current = false;
+    tickDone.current = new Set();
     setReadyAtLabel(formatClock(end));
     setRemaining(sec);
     setOpen(true);
@@ -72,7 +84,8 @@ export const RestTimer = forwardRef<RestTimerHandle>(function RestTimer(_props, 
 
   function stop() {
     endAt.current = null;
-    beeped.current = false;
+    finalBeeped.current = false;
+    tickDone.current = new Set();
     setRemaining(null);
     setReadyAtLabel(null);
     stopRestAudio();

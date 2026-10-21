@@ -1,37 +1,64 @@
 /**
  * Sygnały minutnika.
- * Opera często blokuje play() po setTimeout — trzymamy cichy keep-alive
- * od gestu Start i na końcu gramy głośny beep + SpeechSynthesis.
+ * Opera: odblokowanie przy geście + cichy keep-alive (bez słyszalnego loopa).
+ * Odliczanie: krótki tick na 3 / 2 / 1 s, pełny sygnał na 0.
  */
 
 const STORAGE_KEY = "spkp_sound_ok";
 
 let unlocked = false;
-let keepAlive: HTMLAudioElement | null = null;
+let silentKeep: HTMLAudioElement | null = null;
 let beepEl: HTMLAudioElement | null = null;
 
-function beepUrl(): string {
+function assetUrl(file: string): string {
   const base = import.meta.env.BASE_URL.endsWith("/")
     ? import.meta.env.BASE_URL
     : `${import.meta.env.BASE_URL}/`;
-  return `${base}beep.wav`;
+  return `${base}${file}`;
 }
 
-function ensureElements(): { keep: HTMLAudioElement; beep: HTMLAudioElement } {
-  if (!keepAlive) {
-    keepAlive = new Audio(beepUrl());
-    keepAlive.loop = true;
-    keepAlive.preload = "auto";
-    keepAlive.volume = 0.001;
-    keepAlive.setAttribute("playsinline", "true");
+/** Prawdziwa cisza — 0.5 s mono, żeby Opera trzymała sesję audio. */
+function silentDataUri(): string {
+  const sampleRate = 8000;
+  const n = sampleRate; // 1 s
+  const data = new Uint8Array(44 + n * 2);
+  const view = new DataView(data.buffer);
+  const write = (o: number, s: string) => {
+    for (let i = 0; i < s.length; i++) view.setUint8(o + i, s.charCodeAt(i));
+  };
+  write(0, "RIFF");
+  view.setUint32(4, 36 + n * 2, true);
+  write(8, "WAVE");
+  write(12, "fmt ");
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true);
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
+  write(36, "data");
+  view.setUint32(40, n * 2, true);
+  // samples already 0
+  const blob = new Blob([data], { type: "audio/wav" });
+  return URL.createObjectURL(blob);
+}
+
+function ensureElements(): { silent: HTMLAudioElement; beep: HTMLAudioElement } {
+  if (!silentKeep) {
+    silentKeep = new Audio(silentDataUri());
+    silentKeep.loop = true;
+    silentKeep.preload = "auto";
+    silentKeep.volume = 0.01;
+    silentKeep.setAttribute("playsinline", "true");
   }
   if (!beepEl) {
-    beepEl = new Audio(beepUrl());
+    beepEl = new Audio(assetUrl("beep.wav"));
     beepEl.preload = "auto";
     beepEl.volume = 1;
     beepEl.setAttribute("playsinline", "true");
   }
-  return { keep: keepAlive, beep: beepEl };
+  return { silent: silentKeep, beep: beepEl };
 }
 
 export function isSoundEnabled(): boolean {
@@ -58,7 +85,7 @@ export function tryVibrate(pattern: number | number[] = [200, 100, 200]): void {
       navigator.vibrate(pattern);
     }
   } catch {
-    /* Opera desktop / polityka */
+    /* ignore */
   }
 }
 
@@ -76,15 +103,13 @@ function speakTime(): void {
   }
 }
 
-/** Odblokuj + potwierdź dźwiękiem — wywołać przy tapnięciu „Włącz dźwięk”. */
 export async function enableSound(): Promise<{ ok: boolean; error?: string }> {
-  const { keep, beep } = ensureElements();
+  const { silent, beep } = ensureElements();
   try {
-    keep.currentTime = 0;
-    keep.volume = 0.001;
-    await keep.play();
-    keep.pause();
-    keep.currentTime = 0;
+    silent.currentTime = 0;
+    await silent.play();
+    silent.pause();
+    silent.currentTime = 0;
 
     beep.currentTime = 0;
     beep.volume = 1;
@@ -100,34 +125,45 @@ export async function enableSound(): Promise<{ ok: boolean; error?: string }> {
   }
 }
 
-/**
- * Start przerwy — w tym samym geście co Start / odhaczenie.
- * Uruchamia cichy keep-alive, żeby Opera pozwoliła zagrać na końcu.
- */
+/** Cichy keep-alive w geście Start — bez słyszalnego loopa. */
 export async function beginRestAudio(): Promise<void> {
-  const { keep } = ensureElements();
+  const { silent } = ensureElements();
   try {
-    keep.pause();
-    keep.currentTime = 0;
-    keep.volume = 0.001;
-    await keep.play();
+    silent.pause();
+    silent.currentTime = 0;
+    silent.volume = 0.01;
+    await silent.play();
     unlocked = true;
   } catch {
-    // spróbuj jeszcze raz po enableSound w UI
+    /* UI: Włącz dźwięk */
   }
   tryVibrate(30);
 }
 
 export function stopRestAudio(): void {
   try {
-    keepAlive?.pause();
-    if (keepAlive) keepAlive.currentTime = 0;
+    silentKeep?.pause();
+    if (silentKeep) silentKeep.currentTime = 0;
   } catch {
     /* ignore */
   }
 }
 
-/** Koniec przerwy — głośny sygnał (działa najlepiej po beginRestAudio). */
+/** Krótki tick (ostatnie 3 / 2 / 1 s). */
+export async function playCountdownTick(): Promise<void> {
+  const { beep } = ensureElements();
+  try {
+    beep.pause();
+    beep.currentTime = 0;
+    beep.volume = 0.55;
+    await beep.play();
+  } catch {
+    /* ignore */
+  }
+  tryVibrate(40);
+}
+
+/** Koniec przerwy (0 s). */
 export async function playAlert(): Promise<void> {
   stopRestAudio();
   tryVibrate([240, 100, 240, 100, 360]);
@@ -157,12 +193,10 @@ export async function playAlert(): Promise<void> {
     }, 560);
     markSoundEnabled();
   } catch {
-    // ostatnia deska: speech już poszło
     speakTime();
   }
 }
 
-/** Alias wstecznej kompatybilności */
 export async function unlockAudio(): Promise<void> {
   if (isSoundEnabled()) {
     await beginRestAudio().catch(() => undefined);
