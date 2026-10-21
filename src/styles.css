@@ -454,8 +454,9 @@ textarea {
   right: 0.85rem;
   bottom: calc(4.4rem + env(safe-area-inset-bottom));
   z-index: 30;
-  width: 4.2rem;
+  min-width: 4.2rem;
   height: 4.2rem;
+  padding: 0 0.65rem;
   border-radius: 999px;
   border: none;
   background: var(--accent);
@@ -465,9 +466,22 @@ textarea {
   box-shadow: 0 8px 24px rgb(11 58 110 / 28%);
 }
 
+.rest-fab.running {
+  font-variant-numeric: tabular-nums;
+}
+
+.rest-fab.overdue {
+  background: var(--danger);
+  box-shadow: 0 8px 24px rgb(163 59 59 / 28%);
+}
+
 @media (prefers-color-scheme: dark) {
   .rest-fab {
     color: #0c121a;
+  }
+
+  .rest-fab.overdue {
+    color: #fff;
   }
 }
 
@@ -485,11 +499,54 @@ textarea {
   box-shadow: var(--shadow);
 }
 
+.rest-panel.overdue {
+  border-color: var(--danger);
+}
+
+.rest-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.rest-panel-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.rest-collapse {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 0.85rem;
+  font-weight: 600;
+}
+
 .rest-time {
   font-family: var(--font-display);
-  font-size: 2.4rem;
+  font-size: 2.6rem;
+  font-variant-numeric: tabular-nums;
   text-align: center;
-  margin: 0.2rem 0 0.6rem;
+  margin: 0.15rem 0 0.35rem;
+  line-height: 1.1;
+}
+
+.rest-time.overdue {
+  color: var(--danger);
+}
+
+.rest-ready-at {
+  text-align: center;
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.rest-ready-at strong {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
 }
 
 .rest-presets {
